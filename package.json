@@ -1,0 +1,26 @@
+{
+  "name": "workshop-final",
+  "version": "1.0.0",
+  "description": "Workshop final - Florencia Cames",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server -p 4200 -a localhost",
+    "start": "webpack --mode=development & npm run server",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florencia cames",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "crossroads": "^0.12.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
